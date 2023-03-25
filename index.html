@@ -2,114 +2,158 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Резюме</title>
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  <div class="container">
-    <h1>Евгений Новиков</h1>
-
-    <div class="row">
-      <div class="six columns">
-        <h2>Разработчик Ruby on Rails</h2>
-        <p>
-          <img src="Photo.jpg" alt="photo" class="u-max-full-width"/>
-        </p>
+  <div class="container border">
+    <div class="row bg-dark bg-gradient p-2 text-white bg-opacity-75">
+      <div class="col-md-3">
+        <img src="images/Photo.jpg" alt="photo" class="photo"/>
       </div>
 
-      <div class="six columns" style="margin-top: 65px">
-        <h3>Специализация</h3>
-        <p>Разработка Web-приложений с использованием фреймворка Ruby on Rails</p>
+      <div class="col-md-5 text-center mt-5">
+        <h1 class="d-flex justify-content-start">EUGENE NOVIKOV</h1>
+        <h2 class="d-flex justify-content-start">Ruby on Rails Developer</h2>
       </div>
 
-      <div class="six columns">
-        <h3>Контактная информация</h3>
-        <ul>
-          Tel: <a href="tel:+7-953-998-20-65">+7-953-998-20-65</a>
-          <br>E-mail: <a href="mailto:godlikefreq@gmail.com">godlikefreq@gmail.com</a>
-          <br>Skype: <a href="skype:live:godlikefreq?chat"><img src="skype.png" /> live:godlikefreq</a>
-          <br>Профиль GitHub: <a href="https://github.com/Godlikefreq"><img src="git.png" /> Godlikefreq</a>
-          <br>Локация: <a href="https://yandex.ru/maps/geo/naberezhnyye_chelny/53105093/?ll=54.325173%2C57.069941&z=6.32"><img src="loc.png" /> Россия, г. Набережные Челны</a>
-        </ul>
+      <div class="col-md-4 mt-3">
+        <h2>PROJECTS EXAMPLE</h2>
+
+        <div class="mt-2">
+          <div class="mx-2"><a class="text-white link" href="http://chat.mylessondomain.ru/"><i class="text-white bi bi-chat-dots"></i> Simple Chat</a></div>
+          <div class="mx-2 mt-2"><a class="text-white link" href="http://askme.mylessondomain.ru/"><i class="text-white bi bi-patch-question"></i> AskMe</a></div>
+          <div class="mx-2 mt-2"><a class="text-white link" href="http://bbq.mylessondomain.ru/"><i class="text-white bi bi-calendar-date"></i> Barbeque</a></div>
+        </div>
       </div>
     </div>
 
-    <div class="row">
-      <div class="twelve columns">
-        <h3>Стек применяемых технологий</h3>
-          <li>Ruby, Rails</li>
-          <li>Ubuntu</li>
-          <li>SQLite</li>
-          <li>HTML, CSS</li>
-          <li>Heroku, Git</li>
-          <li>Тестирование, ООП</li>
+    <div class="row mt-4">
+      <div class="col-md-8 mt-4">
+        <div class="">
+          <h3>SPECIALIZATION</h3>
+
+          <div class="mx-2 mt-3">
+            <p>Developing Web-applications with Ruby on Rails</p>
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <h3>WORK EXPERIENCE</h3>
+
+          <div class="mx-2 mt-3">
+            <div>
+              <div class="d-flex justify-content-between">
+                <div class="text-dark fw-bold">Business Development Manager</div>
+                <div><a class="text-dark text-opacity-75 link" href="https://www.atrucks.su/">ATrucks Trade LLC</a></div>
+              </div>
+
+              <div class="text-dark text-opacity-50">Feb 2019 - Present</div>
+              <div class="mt-1">
+                <li>Making a product demonstration to potential clients</li>
+                <li>Attending conferences, meetings, and industry events</li>
+                <li>Setting goals for the development team and business growth and ensuring they are met</li>
+                <li>Training employees and helping team members develop their skills</li>
+              </div>
+            </div>
+
+            <div class="mt-4">
+              <div class="d-flex justify-content-between">
+                <div class="text-dark fw-bold">Logistics Team Leader</div>
+                <div><a class="text-dark text-opacity-75 link" href="https://tec-olimp.ru/">TEC Olymp LLC</a></div>
+              </div>
+
+              <div class="text-dark text-opacity-50">Aug 2016 - Feb 2019</div>
+              <div class="mt-1">
+                <li>Built strong logistics team from zero</li>
+                <li>Developed and monitored KPIs</li>
+                <li>Set team goals and controlled for their achievment</li>
+                <li>Reported to management on weekly basis by employee performance</li>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <h3>EDUCATION</h3>
+
+          <div class="mx-2">
+            <div class="text-dark fw-bold">Kazan Federal University</div>
+            <div class="mt-1">Master's degree, Materials Science</div>
+            <div class="mt-1 text-dark text-opacity-50">2016 - 2018</div>
+          </div>
+
+          <div class="mt-4 mx-2">
+            <div class="text-dark fw-bold">Kazan Federal University</div>
+            <div class="mt-1">Bachelor degree , Supply Chain Management</div>
+            <div class="mt-1 text-dark text-opacity-50">2012 - 2016</div>
+          </div>
+        </div>
       </div>
 
-      <div class="twelve columns">
-        <h3>Качества</h3>
-        <li>Усидчивоть</li>
-        <li>Обучаемость</li>
-        <li>Коммуникабельность</li>
-        <li>Целеустремленность</li>
-      </div>
+      <div class="col-md-4 mt-4">
+        <div>
+          <h3>SKILLS & TOOLS</h3>
 
-      <div class="twelve columns">
-        <h3>Трудовой стаж</h3>
-        <li>
-          Февраль 2019 - по настоящее время
-          <br>
-          Business Development Manager
-          <br>
-          <a href="https://www.atrucks.su/">ООО «Атракс Трейд»</a>
-        </li>
-        <li>
-          Август 2016 - Февраль 2019
-          <br>
-          Руководитель отдела логистики
-          <br>
-          <a href="https://tec-olimp.ru/">ООО «ТЭК ОЛИМП»</a>
-        </li>
-      </div>
+          <div class="mx-2 mt-3">
+            <div class="mt-2"><i class="bi bi-gem"></i> Ruby/Rails</div>
+            <div class="mt-2"><i class="bi bi-ubuntu"></i> Ubuntu</div>
+            <div class="mt-2"><i class="bi bi-database"></i> SQLite/PostgreSQL</div>
+            <div class="mt-2"><i class="bi bi-filetype-html"></i> HTML/CSS/Bootstrap</div>
+            <div class="mt-2"><i class="bi bi-git"></i> Git/Heroku/VPS</div>
+            <div class="mt-2"><i class="bi bi-check-square"></i> Testing/RSpec</div>
+            <div class="mt-2"></div>
+          </div>
+        </div>
 
-      <div class="twelve columns">
-        <h3>Образование</h3>
-        <p><em>Казанский государственный университет им. В.И. Ульянова-Ленина</em>
-          <br>
-           Степень магистра, Материаловедение
-          <br>
-          2016 - 2018
-        </p>
-        <p><em>Казанский государственный университет им. В.И. Ульянова-Ленина</em>
-          <br>
-          Степень бакалавра, Логистика, поставка материалов и управление цепочками поставок
-          <br>
-          2012 - 2016
-        </p>
-      </div>
+        <div class="mt-4">
+          <h3 class="mt-2">CONTACT</h3>
 
-      <div class="twelve columns">
-        <h3>Языки</h3>
-        <li>Русский (родной)</li>
-        <li>Английский - B2 - средне-продвинутый</li>
-      </div>
+          <div class="mx-2">
+            <div class="mt-2"><i class="bi bi-phone"></i> <a class="contact-link" href="tel:+7-953-998-20-65">+7-953-998-20-65</a></div>
+            <div class="mt-2"><i class="bi bi-mailbox"> </i><a class="contact-link" href="mailto:godlikefreq@gmail.com">godlikefreq@gmail.com</a></div>
+            <div class="mt-2"><i class="bi bi-skype"></i> <a class="contact-link" href="skype:live:godlikefreq?chat">live:godlikefreq</a></div>
+            <div class="mt-2"><i class="bi bi-github"></i> <a class="contact-link" href="https://github.com/Godlikefreq">Godlikefreq</a></div>
+            <div class="mt-2"><i class="bi bi-geo-alt-fill"></i> <a class="contact-link" href="https://yandex.ru/maps/geo/naberezhnyye_chelny/53105093/?ll=54.325173%2C57.069941&z=6.32">Россия, г. Набережные Челны</a></div>
+          </div>
+        </div>
 
-      <div class="twelve columns">
-        <h3>Дополнительно</h3>
-        <p>
-          Полная занятость
-          <br>
-          Полный день
-          <br>
-          Удалённая работа
-          <br>
-          Работа в офисе
-          <br>
-          Готов к переезду
-        </p>
+        <div class="mt-4">
+          <h3>LANGUAGES</h3>
+
+          <div class="mx-2">
+            <li>Russian (Native)</li>
+            <li>English (B2 - Upper-Intermediate)</li>
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <h3>INTERESTS</h3>
+
+          <div class="mx-2">
+            <div class="mt-1">Snowboarding</div>
+            <div class="mt-1">Reading</div>
+          </div>
+        </div>
+
+        <div class="mt-4 mb-2">
+          <h3>QUALITIES</h3>
+
+          <div class="mx-2">
+            <li>Perseverance</li>
+            <li>Learnability</li>
+            <li>Sociability</li>
+            <li>Purposefulness</li>
+          </div>
+        </div>
       </div>
     </div>
   </div>
